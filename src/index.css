@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap');
+body{
+  
+  
+}
+
+
+.App{
+  width: 100%;
+  background-color: #10111C;
+  text-align: center;
+  color: #D3D3FE;
+}
+
+
+
+
+h1{
+  font-weight:bold;
+}
+.align-me {
+  display: flex;
+  align-items: center;
+}
+
+
+
+h1,h2,h3,h4,h4{
+ 
+  font-family: 'Roboto', sans-serif;
+  font-weight:700;
+  text-align: center;
+  color: #D3D3FE;
+}
+
+p{
+  color: #D3D3FE;
+  font-family: 'Roboto', sans-serif;
+}
+.dashboard{
+  height: 100vh;
+}
+
+.chart{
+  
+  height: 100vh;
+  
+}
+.orders{
+height: 100vh;
+padding-top: 10px;
+}
+
+
+.Item {
+ 
+  display: inline-block;
+  text-align: center;
+}
+.red{
+  color: #FF1F1F;
+}
+.green{
+  color: #24C13D;
+}
+.borderLeft{
+  border-style: solid;
+  border-width: .5px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-color: #D3D3FE;
+  height: 100vh;
+  padding-left: 0px;
+}
+.borderRight{
+  border-style: solid;
+  border-width: .5px;
+  border-top-style: none;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-color: #D3D3FE;
+  height: 100vh;
+}
+.borderBottom{
+  border-style: solid;
+  border-width: .5px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-color: #D3D3FE;
+  margin-bottom: .2rem;
+
+}
+.borderTop{
+  border-style: solid;
+  border-width: .5px;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-color: #D3D3FE;
+
+}
+.titleBox{
+  background-color: #1A1C2E;
+  height: 8vh;
+  width: 90%;
+  padding-top: 1rem;
+  margin: auto;
+}
+.noPad{
+  padding: 0px !important;
+}

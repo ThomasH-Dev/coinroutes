@@ -1,0 +1,10 @@
+.pairs{
+    background-color: #1A1C2E;
+    height: 100vh;
+    align-items: left;
+    justify-content: left;
+  }
+  label{
+    color: #D3D3FE;
+    text-align: left;
+  }
